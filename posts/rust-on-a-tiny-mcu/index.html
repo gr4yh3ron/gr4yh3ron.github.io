@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Embedded Rust on a tiny MCU · gr4yh3ron</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header><a href="/" class="site">gr4yh3ron</a><nav><a href="/">posts</a><a href="/about/">about</a></nav></header>
+<main>
+<h1>Embedded Rust on a tiny MCU</h1>
+<p class="date">2026-10-05</p>
+<p>I ported my weekend LED-matrix project from C to Rust with <code>embassy</code>. Binary grew by 3 KB, bugs shrank by a lot.</p>
+<pre>cargo build --release --target thumbv7em-none-eabihf</pre>
+<p>Async on bare metal still feels like cheating.</p>
+</main>
+<footer>gr4yh3ron · small things, mostly working</footer>
+</body>
+</html>
